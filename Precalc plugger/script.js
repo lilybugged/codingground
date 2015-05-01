@@ -1,11 +1,12 @@
-function plugInt()
+function sayHello()
 {
-       for(i=0;i<5;i++){
-        x = parseInt(prompt("give an x value"),10)
-        eq = (Math.pow(x,2)-5*x+6)/(x-1)
-        console.log(eq)
+    equ=prompt("give an equation containing x");
+    times=parseInt(prompt("how many times would you like to plug an x value?"));
+    for (i=0;i<times;i++){
+        x=parseInt(prompt("give x"),10);
+        window.alert(eval(equ));
     }
-
+   
 }
 
-plugInt();
+sayHello();
