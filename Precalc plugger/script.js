@@ -1,4 +1,4 @@
-function sayHello()
+function Plug()
 {
     equ=prompt("give an equation containing x");
     times=parseInt(prompt("how many times would you like to plug an x value?"));
@@ -9,4 +9,4 @@ function sayHello()
    
 }
 
-sayHello();
+Plug();
